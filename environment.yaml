@@ -1,0 +1,18 @@
+name: TTM4536
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.*
+  - sage  # SageMath for extensive math and cryptography tools
+  - gmpy2
+pip:
+  - pycryptodome  # Cryptographic algorithms like AES, RSA
+  - cryptography  # General cryptographic operations
+  - sympy  # Symbolic mathematics library for algebra
+  - numpy  # Numerical operations and array handling
+  - pandas  # Data manipulation library
+  - scipy  # Scientific computations
+  - matplotlib  # Plotting library
+  - jupyterlab  # Optional for interactive work in Jupyter notebooks
+  - pwn
+  - scapy
